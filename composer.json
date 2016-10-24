@@ -1,0 +1,24 @@
+{
+    "name": "dpovshed/zipus",
+    "description": "US zipcode static database.",
+    "type": "library",
+    "keywords": ["zip code","usa","geodata"],
+    "homepage": "https://github.com/dpovshed/zipus",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Povshedny",
+            "email": "basturma@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.3",
+        "illuminate/console": "~5.2"
+    },
+    "autoload": {
+      "psr-4": {
+          "Dpovshed\\Zipus\\": "src/"
+      }
+    },
+    "minimum-stability": "dev"
+}
