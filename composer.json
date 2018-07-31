@@ -20,5 +20,12 @@
           "Dpovshed\\Zipus\\": "src/"
       }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dpovshed\\Zipus\\Providers\\ZipServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
