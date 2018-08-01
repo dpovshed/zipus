@@ -16,7 +16,9 @@ Add this to your `composer.json`
         }
     }
 
-then install package as usual.
+then install package as usual. 
+
+* Laravel 5.5+ will automatically discover the package.
 
 ### Step 2
 
